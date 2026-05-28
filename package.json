@@ -8,7 +8,8 @@
     "build": "tsc && vite build",
     "preview": "vite preview",
     "server": "node server/index.js",
-    "deploy": "npm run build"
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d docs"
   },
   "dependencies": {
     "cors": "^2.8.5",
@@ -16,6 +17,7 @@
     "sql.js": "^1.8.0"
   },
   "devDependencies": {
+    "gh-pages": "^5.0.0",
     "typescript": "^5.8.3",
     "vite": "^7.0.0"
   }
