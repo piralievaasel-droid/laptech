@@ -1,0 +1,33 @@
+node_modules/
+npm-debug.log*
+yarn-error.log*
+
+# Build
+dist/
+.vite/
+
+# Database / local storage
+store.sqlite
+*.sqlite
+*.db
+
+# Env / secrets
+.env
+.env.local
+.env.*.local
+
+# IDEs
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# System
+.DS_Store
+Thumbs.db
+
+# Others
+coverage/
+logs/
