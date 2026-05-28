@@ -13,6 +13,7 @@ export function renderNavbar(container) {
       <nav class="nav-links">
         <a href="#catalog" class="nav-link">Каталог</a>
         <a href="#cart" class="nav-link">Корзина</a>
+        <a href="#compare" class="nav-link">Сравнить</a>
         ${state.currentUser?.role === 'admin' ? '<a href="#admin" class="nav-link">Админ</a>' : ''}
       </nav>
       <div class="nav-controls">
